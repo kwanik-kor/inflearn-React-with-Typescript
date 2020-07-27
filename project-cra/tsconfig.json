@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5", //빌드 결과물은 es5
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext", //빌드 결과의 모듈 방식
+    "moduleResolution": "node", //모듈 해석방식은 node처럼
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": [
+    "src"
+  ]
+}
